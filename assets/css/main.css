@@ -1,5 +1,45 @@
 .orange-bg {
     background-color: #ff875f;
     color: white;
-    padding: 2%;
+    padding: 3% 1%;
+}
+
+.green-bg {
+    background-color: #93f082;
+    padding: 3% 1%;
+    border-style: solid;
+    border-width: 2em 0 2em 0;
+    border-color: #ff875f;
+    outline: 1em solid #ff875f;
+    color: white;
+}
+
+.greyscale {
+    -webkit-filter: grayscale(1);
+}
+
+.crop-center {
+    height: 65vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.crop-top {
+    height: 100vh;
+    object-fit: cover;
+    object-position: top;
+}
+
+.img-bg img {
+    width: 100%;
+}
+
+.thumbnail {
+    border: 1em solid white;
+}
+
+footer {
+    background-color: #ff875f;
+    color: white;
+    outline: 1em solid #ff875f;
 }
